@@ -1,0 +1,21 @@
+{
+  "name": "vuefront-clean-architecture",
+  "version": "1.0.0",
+  "description": "vuefront clean architecture",
+  "main": "index.js",
+  "repository": "https://dmitriyzhuk@github.com/vuefront/clean-architecture.git",
+  "author": "Dmitriy Zhuk <dmitriy.zhuk@cosocloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "yalc-watch": "nodemon --delay 1 -e vue,js,scss,json,ts -x yalc push"
+  },
+  "dependencies": {
+    "@vuefront/blog": "file:.yalc/@vuefront/blog",
+    "@vuefront/cart": "file:.yalc/@vuefront/cart",
+    "@vuefront/core": "file:.yalc/@vuefront/core",
+    "@vuefront/repo-cms": "file:.yalc/@vuefront/repo-cms"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

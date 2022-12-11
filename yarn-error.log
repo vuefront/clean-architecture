@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/bin/node /Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/bin/yarn
+
+PATH: 
+  /Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/dmitriyzhuk/Sites/vuefront-clean-architecture/modules/core/package.json: Unexpected token } in JSON at position 281
+      at JSON.parse (<anonymous>)
+      at /Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/dmitriyzhuk/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vuefront-clean-architecture",
+    "version": "1.0.0",
+    "description": "vuefront clean architecture",
+    "main": "index.js",
+    "repository": "https://dmitriyzhuk@github.com/vuefront/clean-architecture.git",
+    "author": "Dmitriy Zhuk <dmitriy.zhuk@cosocloud.com>",
+    "license": "MIT",
+    "dependencies": {
+      "@vuefront/core": "file:./modules/core",
+      "@vuefront/blog": "file:./modules/blog",
+      "@vuefront/cart": "file:./modules/cart"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

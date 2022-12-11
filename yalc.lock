@@ -1,0 +1,24 @@
+{
+  "version": "v1",
+  "packages": {
+    "@vuefront/core": {
+      "signature": "93d465fc4e081185e26a97ca14012b38",
+      "file": true,
+      "replaced": "file:./modules/core"
+    },
+    "@vuefront/blog": {
+      "signature": "af91fde379db36e4c50913a5459a8e65",
+      "file": true,
+      "replaced": "file:./modules/blog"
+    },
+    "@vuefront/cart": {
+      "signature": "ad8b4454f706c44d09fa575a05d1fdcb",
+      "file": true,
+      "replaced": "file:./modules/cart"
+    },
+    "@vuefront/repo-cms": {
+      "signature": "f7065e4c16bdf2511d44abec2319894d",
+      "file": true
+    }
+  }
+}

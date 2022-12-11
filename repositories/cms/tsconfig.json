@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "sourceMap": true,
+      "target": "es6",
+      "strict": true,
+      "skipLibCheck": true,
+      "noImplicitAny": false,
+      "noImplicitThis": false,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "types": ["vitest"],
+      "typeRoots": ["./types", "./node_modules/@types"],
+      "lib": ["esnext", "dom", "es5", "dom.iterable", "scripthost"]
+    },
+    "include": ["**/*"],
+    "exclude": ["node_modules"]
+  }
+  

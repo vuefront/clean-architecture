@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@vuefront/core": {
+      "signature": "93d465fc4e081185e26a97ca14012b38",
+      "file": true
+    }
+  }
+}

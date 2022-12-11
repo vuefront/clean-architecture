@@ -1,0 +1,29 @@
+{
+  "name": "@vuefront/repo-cms",
+  "version": "0.0.1",
+  "description": "vuefront clean architecture",
+  "main": "index.js",
+  "repository": "https://dmitriyzhuk@github.com/vuefront/clean-architecture.git",
+  "author": "Dmitriy Zhuk <dmitriy.zhuk@cosocloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "yalc-watch": "nodemon --delay 1 -e vue,js,scss,json,ts -x yalc push",
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "2.16.1",
+    "@graphql-codegen/client-preset": "1.2.3",
+    "@graphql-codegen/introspection": "2.2.3",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4",
+    "vitest": "^0.25.6",
+    "@graphql-codegen/typescript-document-nodes": "2.3.10",
+    "@graphql-codegen/typescript": "2.8.5",
+    "@graphql-codegen/typescript-resolvers": "2.7.10"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "graphql": "^16.6.0"
+  }
+}
